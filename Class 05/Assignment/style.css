@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 1280px;
+    height: 785px;
+}
+.header{
+    background-color: #FEFFF5;
+    width: 1280px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 40px 0;
+
+}
+.logo{
+    text-align: center;
+}
+.logo img {
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    width: 100px;
+    background-color: #ffffff;
+    }
+.header h1{
+    width: 827px;
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    color: #0A8080;
+
+}
+.header p{
+    width: 397px;
+    margin: 10px auto;
+    height: 27px;
+    text-align: center;
+}
+a{
+    width: 150px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align:center;
+    background-color: #0A8080;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px 0px #00000033;
+    display:block;
+    padding: 10px;
+}
+.blog{
+    width: 601px;
+    height: 328px;
+    margin: auto;
+    text-align: center;
+}
+.maindev{
+    width: 1280px;
+    height: 1034px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+h4{
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+text-align: center;
+color: #0A8080;
+margin: 50px;
+
+
+}
+.content{
+    width: 942px;
+    margin: auto;
+    height: 239px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    background-color: #FEFFF5;
+    margin-bottom: 4%;
+    box-sizing: border-box;
+    padding: 40PX;
+}
+.content h2, p{
+    width: 791px;
+    height: 36px;
+}
+.content h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.content a{
+    width: 150px;
+    border-radius: 10px;
+    background-color: #0A8080;
+    margin: 30px 0;
+}
+footer{
+    width: 1280px;
+    background-color:#0A8080;
+    color: #ffffff;
+    text-align:center;
+    padding: 15px 0;
+}

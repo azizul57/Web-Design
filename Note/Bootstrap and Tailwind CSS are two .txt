@@ -1,0 +1,23 @@
+Which one best Bootstrap or Tailwind css/ Comparison Between Bootstrap and Tailwind CSS
+
+Bootstrap and Tailwind CSS are two of the most popular CSS frameworks used by developers to create responsive and mobile-friendly websites. Here are some of the differences between the two frameworks:
+
+Customizability: Tailwind CSS is highly customizable and allows developers to create custom-built designs without pre-built component styles. It gives developers complete control over the styling of a web application. Unlike other CSS frameworks, Tailwind does not have a default theme that you have to use. You can give each project a different look even if you use the same elements (color palette, size, etc.). Bootstrap, on the other hand, offers pre-designed UI components that can be customized to fit your needs.
+
+File Size: Tailwind CSS is a smaller framework than Bootstrap, which results in faster loading times. Bootstrap is much larger than Tailwind and requires multiple files to access its full functionality.
+
+Ease of Use: Bootstrap is easy to use and quite simple to learn for designing and development. With the basic working knowledge of HTML, CSS, and JavaScript, anybody can start development with Bootstrap. Tailwind CSS requires in-depth knowledge of CSS to use effectively.
+
+Responsiveness: With Tailwind’s pre-built classes, you can design the layout directly in an HTML file. This makes it a very responsive, mobile-friendly CSS framework. Bootstrap also offers mobile-first, responsive components pre-styled to create flawless website pages quickly.
+
+Support: Bootstrap has a large and active support community .Tailwind CSS also has a growing community of developers who provide support and resources.
+
+Design Philosophy: Bootstrap is a component-based framework that provides pre-designed UI components that can be customized to fit your needs . Tailwind CSS, on the other hand, is a utility-first CSS framework that allows developers to create custom-built designs without pre-built component styles .
+
+Learning Curve: Bootstrap is easy to learn and use for designing and development . With the basic working knowledge of HTML, CSS, and JavaScript, anybody can start development with Bootstrap . Tailwind CSS requires in-depth knowledge of CSS to use effectively .
+
+File Size: Tailwind CSS is a smaller framework than Bootstrap, which results in faster loading times . Bootstrap is much larger than Tailwind and requires multiple files to access its full functionality .
+
+Customization: Tailwind CSS gives developers complete control over the styling of a web application . Unlike other CSS frameworks, Tailwind does not have a default theme that you have to use . You can give each project a different look even if you use the same elements (color palette, size, etc.) . Bootstrap offers pre-designed UI components that can be customized to fit your needs .
+
+Responsiveness: With Tailwind’s pre-built classes, you can design the layout directly in an HTML file. This makes it a very responsive, mobile-friendly CSS framework . Bootstrap also offers mobile-first, responsive components pre-styled to create flawless website pages quickly .

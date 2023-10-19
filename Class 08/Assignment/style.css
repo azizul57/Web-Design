@@ -1,0 +1,166 @@
+/*----- global Setting-----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-btn-color:#878CFF;
+    --primary-bgcolor:#ffffff;
+    --primary-title-color:#21243D;
+    --text-color:#21243D;
+    --footer-color:#1E1E1E;
+    font-size: 62.5%;
+}
+.container{
+    max-width: 1000px;
+    margin: 8rem auto;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--primary-btn-color);
+}
+h1{
+    font-size: 3.8rem;
+    padding: 2rem 0;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-title-color);
+}
+p{
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+span{
+    color: var(--primary-btn-color);
+}
+.btn{
+    background-color: var(--primary-btn-color);
+    color: var(--primary-bgcolor);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/*-----Header section start*/
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+nav ul a{
+    color: var(--footer-color);
+}
+.hire-me a{
+    background-color: var(--primary-title-color);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 2.4rem ;
+    color: var(--primary-bgcolor);
+    border-radius: .5rem;
+}
+/*-----Header section end*/
+/*-----Hero section start*/
+.hero-contain{
+    max-width: 32rem;
+    margin: auto;
+    text-align: center;
+}
+.hero-title p{
+    padding: 1.5rem 0;
+    margin-bottom: 2rem;
+}
+/*-----hero section end*/
+/*-----About me section start*/
+.aboutme-flex{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.aboutme-contain{
+    max-width: 38rem;
+    text-align: left;
+    align-items: start;
+}
+.aboutme-contain h2, p{
+    margin: 2rem 0;
+}
+.aboutme-contain p{
+    line-height: 2.3rem;
+}
+/*-----hero section end*/
+/*--My Work section start--*/
+.work-title{
+    text-align: center;
+}
+.work-flex{
+    display: flex;
+}
+.box p{
+    margin: 1rem 3rem; 
+}
+.box a{
+    margin: 1rem 3rem; 
+}
+/*--My Work section End--*/
+
+/*--Insights section start--*/
+.ins h2{
+    margin: 3rem;
+    color: var(--primary-btn-color) !important;
+}
+.insights-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+.insight-box{
+    max-width: 80%;
+    padding: 3rem;
+    border-radius: 0.25rem;
+    border: 1px solid #E2E2E2;
+    margin-bottom: 5rem;
+}
+.insight-box a, p{
+    margin: 1rem 0;
+    list-style: 3rem;
+}
+/*--Insights section end--*/
+/*--footer section start--*/
+footer{
+    background-color: var(--footer-color);
+    align-items: center;
+    padding: 2rem 0;
+    margin-top: 6.5rem;
+}
+.social-logo{
+    text-align: center;
+    padding-top: 2rem;
+}
+.social-logo img{
+    gap: 2rem;
+    padding: 1.5rem;
+}
+.copy p{
+    color: var(--primary-bgcolor);
+    text-align: center;
+}
+/*--footer section end--*/

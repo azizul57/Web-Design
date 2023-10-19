@@ -1,0 +1,143 @@
+<html>
+<head>
+  <style>
+    /* Use a flexbox layout to arrange the sections */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: auto;
+    }
+
+    /* Make the video player responsive */
+    video {
+      width: 90%;
+      height: auto;
+      margin-left:9 %;
+    }
+    .video-section{
+        width: 50%;
+        padding:15px;
+
+    }
+    .text-section{
+        width: 46%;
+        margin: 15px;
+        padding: 15px;
+        text-align: center;
+        background-color: #1B1B1B;
+    }
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 30px;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    /* Use media queries to change the flex direction */
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: column;
+    }
+    .video-section{
+        width: 100%;
+    }
+    .text-section{
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+      }
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+  </style>
+</head>
+<body>
+  <main style="max-width: 1440px; margin: auto; overflow: hidden;">
+  
+  <!-- Set the viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Create a container for the sections -->
+  <div class="container">
+    <!-- Create a section for the video -->
+    <div class="video-section">
+      <video src="https://cdn.shopify.com/videos/c/o/v/b53ce7c1c1f94d6ebd4f189a185d7647.mp4" controls></video>
+    </div>
+
+    <!-- Create a section for the text -->
+    <div class="text-section">
+        <h2>Our Competitors</h2>
+      <p>We are pioneers of this digital realm. We have Studied, Analyzed and Experimented countless prompts and the result is right here. See for yourself.
+        </p>
+    </div>
+  </div>
+</main>
+</body>
+</html>
+
+
+<html>
+<head>
+  <style>
+    /* Use a flexbox layout to arrange the sections */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /* Make the video player responsive */
+    video {
+      width: 100%;
+      height: auto;
+    }
+    .video-section{
+        width: 47.5%;
+        padding:0px;
+    }
+    h2{
+        font-size: 30px;
+  text-decoration:none;
+        font-weight: bolder;
+        text-align: center;
+        margin:0px;
+    }
+
+    /* Use media queries to change the flex direction */
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: column;
+    }
+    .video-section{
+        width: 100%;
+    }
+      }
+            @media screen and (min-width: 1000px) {
+            .container {
+                margin-left: 9%;
+                margin-right: 9%;
+            }
+        }
+  </style>
+</head>
+<body>
+  <!-- Set the viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <h2>OH, AND THIS IS WHAT PEOPLE ARE SAYING…</h2>
+  <!-- Create a container for the sections -->
+  <div class="container">
+    <!-- Create a section for the video -->
+    <div class="video-section">
+      <video src="https://cdn.shopify.com/videos/c/o/v/9210e2a9b60148ffa6b27ff6b08a0b88.mp4" controls></video>
+    </div>
+
+    <div class="video-section">
+      <video src="https://cdn.shopify.com/videos/c/o/v/9210e2a9b60148ffa6b27ff6b08a0b88.mp4" controls></video>
+    </div>
+  </div>
+</body>
+</html>

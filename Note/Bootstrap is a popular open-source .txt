@@ -1,0 +1,21 @@
+Bootstrap is a popular open-source CSS framework that offers several benefits for web developers. Here are some of the advantages of using Bootstrap:
+
+Easy to Use: Bootstrap is easy to use and quite simple to learn for designing and development. With the basic working knowledge of HTML, CSS, and JavaScript, anybody can start development with Bootstrap.
+
+Faster Development: Bootstrap provides a set of pre-designed UI components to style landing pages quickly and easily. It saves lots of time and effort using the Bootstrap predefined design templates and classes.
+
+Responsive: Bootstrap is a mobile-first framework that is designed to be responsive and mobile-friendly. It has a powerful grid system that makes it easy to create responsive designs for any device.
+
+Customizable: Bootstrap is highly customizable and allows developers to create custom-built designs without pre-built component styles. It gives developers complete control over the styling of a web application. Unlike other CSS frameworks, Bootstrap does not have a default theme that you have to use 2. You can give each project a different look even if you use the same elements (color palette, size, etc.).
+
+Stable: Bootstrap has been on the rise for several years now and has proven to be a stable framework since its initial release. The framework was developed by top-notch engineers, which is why bugs and breaks are rare
+
+Cross-Browser Compatibility: Bootstrap is compatible with all modern browsers such as Chrome, Firefox, Safari, and Internet Explorer. It ensures that your website looks the same on all browsers.
+
+Large Community: Bootstrap has a large and active community of developers who provide support and resources. This means that you can easily find help when you need it. The community also provides a lot of free resources such as templates, themes, and plugins.
+
+Accessibility: Bootstrap is designed to be accessible to everyone, including people with disabilities. It provides built-in support for accessibility features such as screen readers and keyboard navigation 1.
+
+Consistency: Bootstrap provides a consistent look and feel across different devices and browsers. This makes it easy to create a professional-looking website without spending a lot of time on design.
+
+Cost-Effective: Bootstrap is an open-source framework that is free to use. This makes it a cost-effective solution for web designers who want to create professional-looking websites without spending a lot of money 

@@ -1,0 +1,21 @@
+Advantage of Tailwind CSS/ Why you should use Tailwind CSS.
+
+
+
+Faster Development: Tailwind CSS is a utility-first CSS framework that allows developers to create applications faster and easier using utility classes to control layout, color, spacing, typography, shadows, and more. It provides a set of pre-designed UI components to style landing pages quickly and easily 
+
+
+
+Customizable: Tailwind CSS is highly customizable and allows for custom-built designs without pre-built component styles. It gives developers complete control over the styling of a web application . Unlike other CSS frameworks, Tailwind does not have a default theme that you have to use. You can give each project a different look even if you use the same elements (color palette, size, etc.) 
+
+
+
+Responsive: With Tailwind’s pre-built classes, you can design the layout directly in an HTML file. This makes it a very responsive, mobile-friendly CSS framework 2.
+
+
+
+Less Custom CSS: With Tailwind, you style elements by applying pre-existing classes directly in your HTML. By using utility classes in this way, you can build custom designs without writing CSS 3. This means you write less custom CSS and keep your CSS files small 
+
+
+
+Stable: Tailwind has proven to be a stable framework since its initial release .The framework was developed by top-notch engineers, which is why bugs and breaks are rare 

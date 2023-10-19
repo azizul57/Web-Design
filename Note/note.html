@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.containe {
+    max-width: 1240px;
+    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.colum {
+  flex: 50%;
+  padding: 10px;
+  box-sizing: border-box; /* Add this line */
+  justify-content: center;
+  gap: 40px;
+}
+.conten{
+    display: inline-block;
+    width: 60%;
+    box-sizing: border-box;
+}
+.btnn {
+    background-color: green;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    max-width: 70%;
+    text-decoration: none;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.btnn:hover{
+
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .colum {
+    flex: 100%;
+  }
+  .colum img{
+    width: 100%;
+    height: 72%;
+    border-radius: 10px;
+}
+.btnn{
+    max-width: 100%;
+}
+.colum li{
+    line-height: 30px;
+    font-size: 15px;
+    margin-left:0;
+}
+}
+.colum img{
+    width: 100%;
+    height: 72%;
+    border-radius: 10px;
+}
+.colum h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: green;
+}
+.colum li{
+    line-height: 35px;
+    font-size: 20px;
+    margin-left: 15%;
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<div class="containe">
+  <div class="colum conten">
+    <h2>We are prodive best quality Tents</h2>
+    <ul>
+      <li>The UK’s best handpicked Tent Selection
+      </li>
+      <li>Research, Reviewed & Tested for You</li>
+      <li>Hassle Free Family Tent Range </li>
+      <li> Simple set up, top quality inflatable tents </li>
+      <li>Adventure Proof Ready to Rock Roof Top Tents </li>
+      <li>All tents come with the AtHomeOurdoors Family seal of approval</li>
+    </ul>
+    <a class="btnn" href="">Shop Now</a>
+  </div>
+  <div class="colum">
+    <img src="https://cdn.shopify.com/s/files/1/0814/4981/2268/files/Inflateable_tent.jpg?v=1695882787" alt="Image">
+  </div>
+</div>
+
+</body>
+</html>

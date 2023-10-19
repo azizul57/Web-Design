@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+.header{
+    width: 1200px;
+    height: auto;
+    background-color: blanchedalmond;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+
+
+}

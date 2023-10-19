@@ -1,0 +1,55 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+/*------Header section---*/
+.header{
+    background-color: #326155;
+    padding: 50px 0px;
+    text-align: center;
+}
+.header h1{
+    font-size: 48px;
+    font-weight:700 ;
+    color: #ffffff;
+}
+/*------blog section---*/
+.blog{
+    margin: 50px 0;
+}
+.post{
+    background-color: #D7F2EC;
+    width: 583px;
+    margin:0 auto;
+    padding: 42px;
+    box-sizing: border-box;
+}
+.post a{
+    background-color: #326155;
+    color: #ffffff;
+    display: block;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+.post h2{
+    width: 441px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #326155;
+    margin: 20px 0;
+}
+.post p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin: 20px 0;
+}
+/*------footer Section---*/
+footer{
+    background-color: #326155;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+}

@@ -1,0 +1,226 @@
+:root{
+    --primary-btn-color:#0A8270;
+    --primary-bgcolor:#F6F3EB;
+    --seoundary-bgcolor:#ffffff;
+    --primary-color:#314D4A;
+    --text-color:#646D6C;
+    font-size: 62.5%;
+
+
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: var(--seoundary-bgcolor);
+    background-color: var(--primary-btn-color);
+    display: inline-block;
+    padding: 1.5rem 3rem;
+}
+ul a{
+    background-color: var(--primary-bgcolor);
+    color: var(--text-color);
+}
+p{
+    line-height: 3rem;
+    color: var(--text-color);
+}
+h2{
+    color: var(--primary-color);
+}
+h3{
+    color: var(--primary-color);
+}
+span{
+    color: var(--primary-btn-color);
+}
+nav a{
+    color: var(--primary-color);
+    background-color: var(--primary-bgcolor);
+}
+.header-logo h2{
+    font-size:3rem ;
+    color: var(--primary-color);
+}
+header{
+    background-color: var(--primary-bgcolor)
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4.2rem;
+}
+ul{
+    list-style: none;
+}
+.hero{
+    background-color: var(--primary-bgcolor);
+    padding: 6rem;
+}
+.hero-flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.hero-content h2{
+    font-size: 6.2rem;
+    max-width: 490px;
+    color: var(--primary-color);
+}
+.work{
+    max-width: 29rem;
+    margin: auto;
+    text-align: center;
+}
+
+.content-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.box{
+    max-width: 23rem;
+}
+.contact{
+    border: 2px solid #0A8270;
+    padding: 2rem;
+    background: #FFF;
+box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.07);
+}
+.content{
+    padding: 6rem 0;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.box1 p{
+    max-width: 27rem;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+}
+.project-title1{
+    max-width: 29rem;
+}
+.allproject a{
+    background-color: var(--primary-bgcolor);
+    color: var(--primary-btn-color);
+}
+.project{
+    background-color: var(--primary-bgcolor);
+    padding: 3rem 0;
+}
+.project-details{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: var(--seoundary-bgcolor);
+    padding: 3rem 0;
+}
+.project-details h2{
+    color: var(--seoundary-bgcolor);
+}
+.project-count{
+    background-color: var(--primary-btn-color);
+}
+.project-details p{
+    color: #DDEAE8;
+}
+.review-content{
+    text-align: center;
+    padding-top: 6rem;
+    max-width: 29rem;
+    margin: auto;
+}
+.review-flex{
+    display: flex;
+    gap: 2rem;
+}
+.all-project{
+    max-width: 23rem;
+    margin: auto;
+    padding: 2rem 0;
+}
+.review a{
+    background-color: var(--seoundary-bgcolor);
+    color: var(--primary-btn-color);
+}
+.review1{
+    border-radius: 0.625rem;
+    background: #FFF;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+.contact-from-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.input-form{
+    width: rem;
+}
+input{
+    width: 100%;
+    line-height: 3rem;
+    margin: 2rem 0;
+}
+.btn{
+    max-width: 8rem;
+    background-color: var(--primary-btn-color);
+    color: var(--seoundary-bgcolor);
+    display: inline-block;
+    text-align: center;
+    justify-content: right;
+    position: relative;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu{
+    display: flex;
+}
+footer{
+    background-color: var(--primary-bgcolor);
+    justify-content: center;
+}
+.blod{
+    font-weight: 700;
+}
+.contact-number{
+    background-color: var(--primary-btn-color);
+    color: var(--seoundary-bgcolor);
+    padding: 4rem;
+    justify-content: center;
+    text-align: center;
+}
+.contact-number span{
+    color: var(--seoundary-bgcolor);
+    text-align: center;
+}
+.contact-number img{
+    max-width: 12px;
+    overflow: hidden;
+}

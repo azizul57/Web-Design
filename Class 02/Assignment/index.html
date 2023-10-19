@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Log in Form</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <fieldset>
+        <legend style="color: blue;">User Registration</legend>
+        <form>
+            <label for="name">Enter Your Name</label><span style="color: red;">*</span>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            <br><br>
+            <label for="Email">Enter Your Email</label><span style="color: red;">*</span>
+            <input type="email" id="Email" placeholder="e g test@test.com" required>
+            <br><br>
+            <label for="number">Enter Your Number </label><span>(Optional)</span>
+            <input type="number" id="number" placeholder="+88">
+            <br><br>
+            <label for="pass">Set a Password</label><span style="color: red;">*</span>
+            <input type="password" minlength="4" id="pass" required>
+            <br><br>
+            <label for="country">Choose your Country</label>
+            <select name="" id="country">
+                <option value="">--Select Your Country--</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Italy">Italy</option>
+                <option value="nepal">Nepal</option>
+            </select>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <br>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+            <br><br>
+            <label for="birth">Date of Birth</label>
+            <input type="date" id="birth">
+            <br><br>
+            <label for="pic">Upload your picture</label>
+            <input type="file" maxlength="100" id="pic">
+            <br><br>
+            <label for="msg">Your Message</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="5" placeholder="Hello.."></textarea>
+            <br><br>
+            <input type="checkbox" id="checkbox" required>
+            <label for="checkbox" >Agree to terms & conditions</label><span style="color:red;">*</span>
+            <input type="color" >
+            <br><br>
+            <input type="submit" value="Sign Up">
+            <input type="reset">
+        </form>
+    </fieldset>
+</body>
+</html>

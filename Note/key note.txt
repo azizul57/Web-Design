@@ -1,0 +1,17 @@
+------CLASS 01-------
+<pre> = Poem 
+&nbsp for extra space
+target="blank" = for new tab( <a href="http://" target="_blank" rel="noopener noreferrer"></a>)
+ordered list = <ol type="A">( type use for number letter 
+
+------CLASS 02-------
+fieldset = for box with out CSS
+
+class 5
+overflow-y left and right side
+overflow-x button
+
+flex-diection: col
+
+::selecion{} for copy text selection
+objetct-fit: cover for image ratio fit

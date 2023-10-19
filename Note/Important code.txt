@@ -1,0 +1,136 @@
+Important code
+
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 20px;
+			margin: 0 auto;
+			max-width: 1000px;
+		}
+
+		.item {
+			flex-basis: calc(50% - 20px);
+			background-color: #1b1b1b;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+			margin-bottom: 20px;
+		}
+
+        @media screen and (max-width: 700px) {
+            .item {
+                flex-basis: calc(100% - 20px);
+            }
+        }
+
+        @media screen and (min-width: 1000px) {
+            .container {
+                margin-left: 9%;
+                margin-right: 9%;
+            }
+        }
+	</style>
+</head>
+<body>
+	<div class="container">
+<h2>OH, AND THIS IS WHAT PEOPLE ARE SAYING…</h2>
+        <div class="item">
+            <video width="100%" height="auto" controls>
+                <source src="https://cdn.shopify.com/videos/c/o/v/9210e2a9b60148ffa6b27ff6b08a0b88.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="item">
+          <video width="100%" height="auto" controls>
+              <source src="https://cdn.shopify.com/videos/c/o/v/9210e2a9b60148ffa6b27ff6b08a0b88.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+      </div>
+
+
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1400px;
+      margin: auto;
+      border-radius: 15px;
+    }
+    h3 {
+      text-align: center;
+      font-size: 25px;
+    }
+  .text>h2{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 5%;
+    text-align: center;
+  }
+  .text>p{
+    font-size: 20px;
+    margin:0 10%;
+  }
+    .column {
+      flex: 1;
+      margin: 10px;
+      background-color: #1b1b1b;
+      overflow: hidden;
+      border-radius: 20px;
+    }
+  
+    video {
+      width: 100%;
+      height: auto;
+    }
+  
+    @media only screen and (max-width: 768px) {
+      .column {
+        flex-basis: 100%;
+      }
+      .text>p{
+    font-size: 18px;
+    margin:1%;
+    text-align: center;
+  }
+    }
+  </style>
+  
+</head>
+<body>
+  <div class="row">
+    <div class="column text">
+      <h2>Oh, And This is What People Are Saying...</h2>
+      <p>We have the highest Engagement in our industry and the Analytics prove our claim. Prioritizing quality and viewer retention has allowed us to replicate our success across all major platforms.
+        </p>
+    </div>
+    <div class="column">
+      <video id="myVideo" width="100%" height="auto" controls loop poster="https://cdn.shopify.com/s/files/1/0827/8514/1041/files/oh_and_this_is_what_people_were_saying_thumbnail.jpg?v=1694612260"  oncontextmenu="return false;" controlsList="nodownload">
+        <source src="https://cdn.shopify.com/videos/c/o/v/9210e2a9b60148ffa6b27ff6b08a0b88.mp4" type="video/mp4" autoplay>
+        </video>
+  </div>
+</div>
+
+  
+</body>
+</html>
