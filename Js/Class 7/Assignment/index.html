@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            width: 500px;
+            margin: auto;
+            background: yellow;
+            text-align: center;
+        }
+        input{
+            padding: 0.6rem;
+            margin: 1rem;
+        }
+        button{
+            padding: 0.6rem;
+            margin: 0.5rem;
+        }
+        #result, h2{
+            font-size: 3rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="text"> Basic Calculator</h2>
+    <section>
+        <input type="number" id="inputOne" value="" placeholder="Enter Your number">
+        <input type="number" id="inputTwo" value="" placeholder="Enter Your number">
+    </section>
+    <div class="button">
+        <button id="sum" onclick="sum()" > Sum + </button>
+        <button id="minus" onclick="minus()">Minus - </button>
+        <button id="multiply" onclick="multiply()"> Multiply * </button>
+        <button id="division" onclick="division()"> Division / </button>
+    </div>
+    <div class="result"> <h2> Result : <span id="result"> 0</span></h2></div> 
+
+    <script>
+        const inputOne = document.getElementById("inputOne")
+        const inputTwo = document.getElementById("inputTwo")
+        const result = document.getElementById("result")
+        
+        function sum() {
+            if (inputOne.value && inputTwo.value ){
+                let sum = parseInt(inputOne.value) + parseInt(inputTwo.value)
+                result.innerHTML = sum;
+                clearInput()
+            }else{
+                alert("Please Enter the Value")
+            }
+        }
+        function minus() {
+            if (inputOne.value && inputTwo.value ){
+                let minus = parseInt(inputOne.value) - parseInt(inputTwo.value)
+                result.innerHTML = minus;
+                clearInput()
+            }else{
+                alert("Please Enter the Value")
+            }
+        }
+        function multiply() {
+            if (inputOne.value && inputTwo.value ){
+                let multiply = parseInt(inputOne.value) * parseInt(inputTwo.value)
+                result.innerHTML = multiply;
+                clearInput()
+            }else{
+                alert("Please Enter the Value")
+            }
+        }
+        function division() {
+            if (inputOne.value && inputTwo.value ){
+                let division = parseInt(inputOne.value) / parseInt(inputTwo.value)
+                result.innerHTML = division.toFixed(2);
+                clearInput()
+            }else{
+                alert("Please Enter the Value")
+            }
+        }
+        function clearInput(){
+            inputOne.value = "";
+            inputTwo.value = "";
+        }
+    </script>
+</body>
+</html>
